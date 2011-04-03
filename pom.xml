@@ -36,7 +36,7 @@ limitations under the License.
 
   <modelVersion>4.0.0</modelVersion>
   <artifactId>com.google.gdata-contacts</artifactId>
-  <version>1.41.5.w1-SNAPSHOT</version>
+  <version>1.41.5.w1</version>
 
   <name>OpenEngSB :: OSGi Wrapped Bundles :: Google API Contacts</name>
 
