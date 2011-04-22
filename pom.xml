@@ -26,23 +26,23 @@ limitations under the License.
 
   <properties>
     <gdata.version>1.41.5</gdata.version>
-    <bundle.symbolicName>com.google.gdata-contacts</bundle.symbolicName>
+    <bundle.symbolicName>com.google.gdata</bundle.symbolicName>
     <wrapped.groupId>com.google.gdata</wrapped.groupId>
-    <wrapped.artifactId>gdata-contacts-3.0</wrapped.artifactId>
+    <wrapped.artifactId>gdata</wrapped.artifactId>
     <wrapped.version>${gdata.version}</wrapped.version>
     <wrapped.mvn.version>${gdata.version}</wrapped.mvn.version>
-    <bundle.namespace>com.google.gdata-contacts</bundle.namespace>
+    <bundle.namespace>com.google.gdata</bundle.namespace>
   </properties>
 
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>com.google.gdata-contacts</artifactId>
-  <version>1.41.5.w2-SNAPSHOT</version>
+  <artifactId>com.google.gdata</artifactId>
+  <version>1.41.5.w1-SNAPSHOT</version>
 
-  <name>OpenEngSB :: OSGi Wrapped Bundles :: Google API Contacts</name>
+  <name>OpenEngSB :: OSGi Wrapped Bundles :: Google API</name>
 
   <packaging>bundle</packaging>
 
-  <description>This Bundle wraps the Gdata Contacts API for Google Contacts access</description>
+  <description>This Bundle wraps the Gdata API. If you need some other part of the api, add it here as dependency.</description>
 
   <url>http://www.openengsb.org</url>
   <licenses>
@@ -54,9 +54,9 @@ limitations under the License.
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/openengsb/openengsb-wrapped-com.google.gdata-contacts.git</connection>
-    <developerConnection>scm:git:git@github.com:openengsb/openengsb-wrapped-com.google.gdata-contacts.git</developerConnection>
-    <url>http://github.com/openengsb/openengsb-wrapped-com.google.gdata-contacts</url>
+    <connection>scm:git:git://github.com/openengsb/openengsb-wrapped-com.google.gdata.git</connection>
+    <developerConnection>scm:git:git@github.com:openengsb/openengsb-wrapped-com.google.gdata.git</developerConnection>
+    <url>http://github.com/openengsb/openengsb-wrapped-com.google.gdata</url>
   </scm>
   
   <repositories>
@@ -70,6 +70,11 @@ limitations under the License.
     <dependency>
       <groupId>com.google.gdata</groupId>
       <artifactId>gdata-contacts-3.0</artifactId>
+      <version>${gdata.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.gdata</groupId>
+      <artifactId>gdata-calendar-2.0</artifactId>
       <version>${gdata.version}</version>
     </dependency>
     <dependency>
