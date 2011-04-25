@@ -38,7 +38,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <artifactId>com.google.gdata</artifactId>
-  <version>1.41.5.w1</version>
+  <version>1.41.5.w2-SNAPSHOT</version>
 
   <name>OpenEngSB :: OSGi Wrapped Bundles :: Google API</name>
 
